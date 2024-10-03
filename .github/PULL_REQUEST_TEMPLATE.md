@@ -1,14 +1,14 @@
 ## Description
-Please include a summary of the changes and the related issue.
+This pull request includes a series of documentation updates and a bug fix. The bug fix addresses an issue where the CI pipeline was not correctly triggering on all push events. In addition, the project's documentation has been updated to reflect recent changes in the branching strategy and CI/CD pipeline setup.
 ## Type of Change
-- [ ] Bug fix
-- [ ] New feature
-- [ ] Documentation update
+- [✅] Bug fix
+- [❌] New feature
+- [✅] Documentation update
 ## Checklist
-- [ ] My code follows the style guidelines of this project
-- [ ] I have performed a self-review of my code
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] My changes generate no new warnings
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] New and existing unit tests pass locally with my changes
+- [✅] My code follows the style guidelines of this project
+- [✅] I have performed a self-review of my code
+- [✅] I have commented my code, particularly in hard-to-understand areas
+- [✅] I have made corresponding changes to the documentation
+- [✅] My changes generate no new warnings
+- [✅] I have added tests that prove my fix is effective or that my feature works
+- [✅] New and existing unit tests pass locally with my changes
