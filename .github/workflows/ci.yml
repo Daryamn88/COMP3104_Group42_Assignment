@@ -1,18 +1,43 @@
+# Name of the GitHub Actions workflow
 name: GitHub Actions Demo
+
+# The name that will appear in the run logs, using the GitHub actor's name dynamically
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+
+# Specify the event that will trigger the workflow (in this case, when code is pushed)
 on: [push]
+
+# Define the jobs that will run in this workflow
 jobs:
   Explore-GitHub-Actions:
+    # Specify the virtual environment where the job will run (Ubuntu latest version)
     runs-on: ubuntu-latest
+
+    # Define the steps to be executed in this job
     steps:
+      # Print a message when the job is triggered, showing which event caused it
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+
+      # Print a message indicating the operating system used by the runner
       - run: echo "🖥 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
+
+      # Print the branch name and repository details dynamically using GitHub context variables
       - run: echo "🔍 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
+
+      # Check out the repository code from the GitHub repository
       - name: Check out repository code
         uses: actions/checkout@v4
+
+      # Confirm that the repository has been cloned to the runner
       - run: echo "📂 The ${{ github.repository }} repository has been cloned to the runner."
+
+      # Print a message indicating that the workflow is ready to run tests or other steps
       - run: echo "🖥 The workflow is now ready to test your code on the runner."
+
+      # List all files in the cloned repository
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
-      - run: echo "🍏 This job's status is ${{ job.status }}."  can you add some comments to this 
+
+      # Print the status of the job (whether it succeeded or failed)
+      - run: echo "🍏 This job's status is ${{ job.status }}."
