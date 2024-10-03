@@ -1,0 +1,2 @@
+The COMP 3104 DevOps course at George Brown College introduces students to the essential practices and tools involved in the field of DevOps.
+DevOps bridges the gap between software development and IT operations, ensuring more efficient and reliable software delivery.
