@@ -2,7 +2,7 @@
 
 ## Group Members:
 ## Leader - Darya Mansouri - 101394900 - Github: https://github.com/Daryamn88
-## Member 2 - Ali Mousavi Roozbahani - 101321818 - Github: 
+## Member 2 - Ali Mousavi Roozbahani - 101321818 - Github: https://github.com/Ali7s
 
 ### Project Description 
 This repository hosts the group assignment for the COMP 3104 DevOps course. The assignment focuses on demonstrating Git collaboration, branching strategies, continuous integration (CI) pipelines, and collaborative development practices. Each member has contributed to the project using their own branch, which has been merged into the main branch via pull requests. 
