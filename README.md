@@ -2,7 +2,7 @@
 
 ## Group Members:
 ## Leader - Darya Mansouri - 101394900 - Github: https://github.com/Daryamn88
-## Member 2 - Ali Mousavi Roozbahani - 101321818 - Github: 
+## Member 2 - Ali Mousavi Roozbahani - 101321818 - Github: https://github.com/Ali7s
 
 ### Project Description 
 This repository hosts the group assignment for the COMP 3104 DevOps course. The assignment focuses on demonstrating Git collaboration, branching strategies, continuous integration (CI) pipelines, and collaborative development practices. Each member has contributed to the project using their own branch, which has been merged into the main branch via pull requests. 
@@ -10,9 +10,9 @@ This repository hosts the group assignment for the COMP 3104 DevOps course. The 
 ### set up instrictions 
 1. Clone the repository: git clone https://github.com/Daryamn88/COMP3104_Group42_Assignment.git
 
-2. Navigate to the project directory: cd COMP3104_Group42_Assignment
+3. Navigate to the project directory: cd COMP3104_Group42_Assignment
 
-3. Switch to each student's own branch: git checkout <STUDENTID-Name>
+4. Switch to each student's own branch: git checkout <STUDENTID-Name>
 
 ### CI/CD Pipeline:
 The project utilizes GitHub Actions for continuous integration. The pipeline is defined in the .github/workflows/ci.yml file and is triggered by push events. It ensures that code quality and standards are met by running automated checks on every push.
